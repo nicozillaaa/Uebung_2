@@ -1,6 +1,5 @@
 header {
   background: white;
-  position: static;
 }
 
 h1 {
@@ -9,9 +8,12 @@ h1 {
   text-align: center;
 }
 
-img {
+.cover {
   width: 630px;
   position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 1;
 }
 
 p {
@@ -24,14 +26,19 @@ ul {
   border-style: solid;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 50px;
+  padding-left: 50;
   padding-right: 50px;
   border-width: 10px;
   border-color: white;
 }
 
-div {
-  margin: 0px;
+img {
+  width: 100%;
+  height: auto;
+}
+
+.impressions img:hover {
+  opacity: 0.7;
 }
 
 body {
@@ -41,13 +48,21 @@ body {
 a {
   color: #588157;
   font-family: sans-serif;
-  position: relative;
-  left: 480px;
+  position: absolute;
+  left: 70%;
   font-size: 20px;
+  padding: 10px;
+  background: white;
 }
 
 footer {
   font-family: sans-serif;
   text-align: right;
   background: white;
+  margin-top: 3%;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 20px;
 }
